@@ -3,6 +3,15 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  margin-left: 2rem;
+}
+
+h3,
+h5 {
+  text-align: center;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -22,4 +31,21 @@ nav {
   background-color: #466ca5;
   color: #ffffff;
   font-weight: bold;
+  border-bottom: solid;
+  border-width: 10px;
+  border-color: #444952;
+}
+
+.body-section {
+  border-top-width: 100px;
+  padding: 50px 0px;
+  color: #ffffff;
+  background-color: #444952;
+}
+
+.colorStyle {
+  background-image: linear-gradient(
+    rgba(177, 43, 88, 0.3) 0%,
+    rgba(236, 102, 142, 0.6) 100%
+  );
 }
