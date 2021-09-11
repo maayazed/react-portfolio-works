@@ -5,6 +5,9 @@ header {
   z-index: 1;
   background-color: #bc5275;
   color: #ffffff;
+  border-bottom: solid;
+  border-color: #b12b58;
+  border-width: 10px;
 }
 
 nav {

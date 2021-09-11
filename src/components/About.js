@@ -28,7 +28,7 @@ function About() {
   return (
     <div style={styles.overlayStyle} className='section'>
       <div style={styles.overlayContentStyle}>
-        <h1>About Section</h1>
+        <h1>Portfolio</h1>
         <p><a href='https://maayazed.github.io/prework-about-me/'><img src={Background} alt='About section img' /></a></p>
       </div>
     </div>
