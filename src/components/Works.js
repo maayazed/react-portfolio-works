@@ -7,7 +7,7 @@ const styles = {
     justifyContent: 'center',
     alignContent: 'normal',
     alignItems: 'center',
-    color: '#ffffff',
+    color: '#070201',
   },
   flexRowStyle: {
     display: 'flex',
@@ -21,6 +21,7 @@ const styles = {
     flexDirection: 'column',
     margin: '10px',
     border: 'solid',
+    borderColor: '#fff2f1',
   },
   gridRowStyle: {
     display: 'grid',

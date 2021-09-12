@@ -29,14 +29,14 @@ nav {
 .header {
   position: relative;
   background-color: #466ca5;
-  color: #ffffff;
+  color: #fff2f1;
   font-weight: bold;
 }
 
 .body-section {
   border-top-width: 100px;
   padding: 50px 0px;
-  color: #ffffff;
+  color: #fff2f1;
   background-color: #748bad;
 }
 

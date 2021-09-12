@@ -9,8 +9,8 @@ const styles = {
     justifyContent: 'center',
     alignContent: 'normal',
     alignItems: 'center',
-    backgroundColor: '#333333be',
-    color: '#ffffff'
+    backgroundColor: '#FCB6C3',
+    color: '#070201'
   },
   overlayContentStyle: {
     position: 'static',
@@ -29,7 +29,8 @@ function About() {
     <div style={styles.overlayStyle} className='section'>
       <div style={styles.overlayContentStyle}>
         <h1>Portfolio</h1>
-        <p><a href='https://maayazed.github.io/prework-about-me/'><img src={Background} alt='About section img' /></a></p>
+        <p><a href='https://maayazed.github.io/prework-about-me/' target="_blank" rel="noopener noreferrer">
+          <img src={Background} alt='About section img' /></a></p>
       </div>
     </div>
   );
