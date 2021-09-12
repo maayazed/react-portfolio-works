@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Nav.css';
+import Resume from '../files/Resume-MAAYAZED.pdf';
 
 function Nav() {
   return (
@@ -15,6 +16,7 @@ function Nav() {
             Linkedin
           </a></li>
           <li>zerreod@outlook.com</li>
+          <li><a href={Resume} download='Resume-MAAYAZED'>Resume</a></li>
         </ul>
       </nav>
     </header>
