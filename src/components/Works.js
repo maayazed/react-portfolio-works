@@ -11,9 +11,10 @@ const styles = {
   },
   flexRowStyle: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     padding: '15px',
     justifyContent: 'space-evenly',
+    textAlign: 'center'
   },
   flexColumnStyle: {
     padding: '2rem',
@@ -25,7 +26,7 @@ const styles = {
   },
   gridRowStyle: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
+    gridTemplateColumns: 'repeat(1, 2fr)',
   },
 }
 

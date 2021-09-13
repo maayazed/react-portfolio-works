@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import * as emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import '../styles/Form.css';
 
 function contactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [error, setError] = useState('')
 
   const handleChange = (event) => {
     const { target } = event;
@@ -22,8 +24,24 @@ function contactForm() {
     }
   }
 
-  const handleSubmit = (event) => {
+  setTimeout(function () {
+    setError('');
+    return;
+  }, 4000);
+
+  function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+  const handleSubmit = (event, callback) => {
     event.preventDefault();
+
+    if (!validateEmail(email) || !name || !message) {
+      setError('Invalid Credentials')
+      setTimeout(callback, 500);
+      return;
+    }
 
     const templateParams = {
       from_name: name,
@@ -48,26 +66,35 @@ function contactForm() {
   }
 
   return (
-    <div>
-      <Form onSubmit={handleSubmit}>
-        <Form.Group>
-          <Form.Label>Name</Form.Label>
-          <Form.Control name='name' type='text' placeholder='Your Name' value={name} onChange={handleChange} />
-        </Form.Group>
-        {/*  */}
-        <Form.Group>
-          <Form.Label>Email</Form.Label>
-          <Form.Control name='email' type='email' placeholder='Your Contact' value={email} onChange={handleChange} />
-        </Form.Group>
-        {/*  */}
-        <Form.Group>
-          <Form.Label>Message</Form.Label>
-          <Form.Control as='textarea' rows={3} name='message' placeholder='Message me something...' value={message} onChange={handleChange} />
-        </Form.Group>
-        {/*  */}
-        <Button type='submit'>Submit</Button>
-      </Form>
-      <h1><a href='/'>Home</a></h1>
+    <div className='formLayer'>
+      <div>
+        <p>To zerreod@outlook.com...</p>
+        <Form onSubmit={handleSubmit}>
+
+          <Form.Group>
+            {/* <Form.Label>Name</Form.Label> */}
+            <Form.Control name='name' type='text' placeholder='Your Name' value={name} onChange={handleChange} />
+          </Form.Group>
+          {/*  */}
+          <Form.Group>
+            {/* <Form.Label>Email</Form.Label> */}
+            <Form.Control name='email' type='email' placeholder='Your Contact' value={email} onChange={handleChange} />
+          </Form.Group>
+          {/*  */}
+          <Form.Group>
+            {/* <Form.Label>Message</Form.Label> */}
+            <Form.Control as='textarea' rows={3} name='message' placeholder='Message me something...' value={message} onChange={handleChange} />
+          </Form.Group>
+          {/*  */}
+          <div className='submit'>
+            <Button><a href='/'>Back</a></Button>
+            <Button type='submit'>Submit</Button>
+          </div>
+          {error && (
+            <p>{error}</p>
+          )}
+        </Form>
+      </div>
     </div>
   );
 }
