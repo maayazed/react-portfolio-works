@@ -15,7 +15,7 @@ function Nav() {
             target="_blank" rel="noopener noreferrer">
             Linkedin
           </a></li>
-          <li>zerreod@outlook.com</li>
+          <li><a href='/email-form'>zerreod@outlook.com</a></li>
           <li><a href={Resume} download='Resume-MAAYAZED'>Resume</a></li>
         </ul>
       </nav>
