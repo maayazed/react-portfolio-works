@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-works",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://maayazed.github.io/react-portfolio-works/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
