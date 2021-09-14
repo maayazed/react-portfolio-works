@@ -19,7 +19,8 @@ function App() {
       }
     `}</style>
         <Nav />
-        <Route exact path='/email-form'>
+        <Route exact path='/email-form'
+          render={(routerProps) => < Form routerProps={routerProps} />}>
           <Form />
         </Route>
         <About />
