@@ -2,9 +2,9 @@ import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Works from './components/Works';
-import Form from './components/Form';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import contactForm from './components/Form';
 
 function App() {
   return (
@@ -19,10 +19,7 @@ function App() {
       }
     `}</style>
         <Nav />
-        <Route exact path='/email-form'
-          render={(routerProps) => < Form routerProps={routerProps} />}>
-          <Form />
-        </Route>
+        <Route exact path='/email-form/' component={contactForm} />
         <About />
         <Works />
       </div>

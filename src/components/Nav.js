@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/Nav.css';
 import Resume from '../files/Resume-MAAYAZED.pdf';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -15,7 +16,11 @@ function Nav() {
             target="_blank" rel="noopener noreferrer">
             Linkedin
           </a></li>
-          <li><a href='/email-form'>Contact</a></li>
+          <li>
+            <Link to={'/email-form/'}>
+              Contact
+            </Link>
+          </li>
           <li><a href={Resume} download='Resume-MAAYAZED'>Resume</a></li>
         </ul>
       </nav>
