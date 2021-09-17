@@ -16,7 +16,7 @@
 </div>
 
 <div align='center'>
-<img src='https://user-images.githubusercontent.com/79816212/133725790-77bc2494-3418-499f-8a12-2419bd08de0b.png'/>
+<img src='https://user-images.githubusercontent.com/79816212/133725790-77bc2494-3418-499f-8a12-2419bd08de0b.png' style="pointer-events: none;  cursor: default;"/>
 </div>
 
 <div align='center'>
