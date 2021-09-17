@@ -18,10 +18,12 @@ function App() {
         font-family: Arial, Helvetica, sans-serif;
       }
     `}</style>
-        <Nav />
-        <Route path='/email-form/' component={contactForm} />
-        <About />
-        <Works />
+        <Route path='/' >
+          <Nav />
+          <Route path='/email-form/' component={contactForm} />
+          <About />
+          <Works />
+        </Route>
       </div>
     </Router>
   );

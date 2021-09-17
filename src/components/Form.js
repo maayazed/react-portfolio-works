@@ -3,6 +3,7 @@ import * as emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../styles/Form.css';
+import { Link } from 'react-router-dom';
 
 function contactForm() {
   const [name, setName] = useState('');
@@ -87,7 +88,7 @@ function contactForm() {
           </Form.Group>
           {/*  */}
           <div className='submit'>
-            <Button><a href='/'>Back</a></Button>
+            <Button><Link to={'/'} >Back</Link></Button>
             <Button type='submit'>Submit</Button>
           </div>
           {error && (
