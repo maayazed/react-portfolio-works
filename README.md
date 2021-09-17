@@ -45,7 +45,7 @@
 <h2 align="center"><strong><a href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
  
 <div align='center'>
-img
+<img src='https://user-images.githubusercontent.com/79816212/133725956-02768fbe-808b-4fc4-83e8-4a4c9ed2cb28.png'/>
 </div>
 
 <hr>
