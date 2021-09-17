@@ -68,9 +68,9 @@
 
 <div>
 <h4>Guide: </h4> 
-<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/> will dropdown an email fourm to contact my work email.</p>
+<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/> will drop down a forum for contacting my work email.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⚠️ You cannot submit the forum unless all three fields are filled. Submit the contact field as a valid email.</p>
-<p>💾<strong>Resume</strong>: The <img src='https://img.shields.io/badge/nav-resume-ff69b4.svg'/> downloads a pdf file of my linkedin resume.</p>
+<p>💾<strong>Resume</strong>: The <img src='https://img.shields.io/badge/nav-resume-ff69b4.svg'/> downloads a pdf file of my LinkedIn resume.</p>
 <p>🔗<strong>Page Links</strong>: This app has external and local routes, external links to my displayed work via 📄description or 🖼️image will open in a new tab. Local routes will take you to a spot on the page described.</p>
 </div>
 
