@@ -38,7 +38,7 @@ img/gif
 
 <br>
  
-<h2 align="center"><strong><a target="_blank" rel="noopener noreferrer" href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
+<h2 align="center"><strong><a href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
  
 <div align='center'>
 img
