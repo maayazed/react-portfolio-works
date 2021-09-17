@@ -5,6 +5,7 @@
 
 <div>
     <img src='https://img.shields.io/badge/license-MIT-blue'/>
+    <img src='https://badges.aleen42.com/src/npm.svg'/>
     <img src='https://badges.aleen42.com/src/node.svg'/>
     <img src='https://badges.aleen42.com/src/react.svg'/>
     <img src='https://badges.aleen42.com/src/typescript.svg'/>
