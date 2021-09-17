@@ -68,7 +68,7 @@
 
 <div>
 <h4>Guide: </h4> 
-<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/></p>
+<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/> will dropdown an email form to contact my work email.</p>
 </div>
 
 <hr>
