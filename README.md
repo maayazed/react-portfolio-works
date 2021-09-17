@@ -68,7 +68,7 @@
 
 <div>
 <h4>Guide: </h4> 
-<p>📧<strong>Fourm</strong>: The </p>
+<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/></p>
 </div>
 
 <hr>
