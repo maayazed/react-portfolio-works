@@ -4,6 +4,7 @@
 </div>
 
 <div>
+    <img src='https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff'/>
     <img src='https://img.shields.io/badge/license-MIT-blue'/>
     <img src='https://badges.aleen42.com/src/npm.svg'/>
     <img src='https://badges.aleen42.com/src/node.svg'/>
