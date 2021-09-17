@@ -5,7 +5,7 @@
 
 <div>
     <img src='https://img.shields.io/badge/license-MIT-blue'/>
-    <img src='https://img.shields.io/badge/-sample-orange'/>
+    <img src='https://badges.aleen42.com/src/node.svg'/>
     <img src='https://img.shields.io/github/repo-size/maayazed/react-portfolio-works'/>
     <img src='https://img.shields.io/github/languages/top/maayazed/react-portfolio-works'/>
     <a href="https://github.com/maayazed"><img src="https://img.shields.io/github/followers/maayazed?style=social" target="_blank"/></a>
