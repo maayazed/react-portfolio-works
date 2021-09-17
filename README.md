@@ -69,7 +69,7 @@
 <div>
 <h4>Guide: </h4> 
 <p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/> will dropdown an email fourm to contact my work email.</p>
-⚠️ You cannot submit the forum unless all three fields are filled. Submit the contact field as a valid email. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>⚠️ You cannot submit the forum unless all three fields are filled. Submit the contact field as a valid email.</p>
 <p>⬇️<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-resume-ff69b4.svg'/> downloads a pdf file of my linkedin resume.</p>
 </div>
 
