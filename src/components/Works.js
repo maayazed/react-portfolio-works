@@ -90,7 +90,7 @@ function Works() {
           {/*  */}
           <div style={styles.flexColumnStyle} className='colorStyle'>
             <h3>Budget Tracker</h3>
-            <p>A fullstack web application allowing users to record, track, and view income/ expenses.Components include
+            <p>A fullstack web application allowing users to record, track, and view income/ expenses. Components include
               <span aria-label='chart-emoji' role='img'> 📊</span>chart.js, MongoDB, mongoose models, and express server.
             </p>
             <div style={styles.gridRowStyle}>
