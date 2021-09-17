@@ -56,7 +56,7 @@
 
 <div>
 <h4>Instructions: </h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://maayazed.github.io/react-portfolio-works/'>link</a>. App deployment brought to you by <code><strong>GithubPages</strong></code>.
 </div>
 
 <hr>
