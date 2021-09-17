@@ -67,7 +67,7 @@
 
 <div>
 <h4>Guide: </h4> 
-  
+<p>📧<strong>Fourm</strong>: The </p>
 </div>
 
 <hr>
