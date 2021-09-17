@@ -37,7 +37,7 @@
 </div>
 
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio works is my personal developer landing page that contains a display of advertised projects from <code><strong><a href='https://github.com/maayazed'>this</a></strong></code> github user. 
 </div>
 
 <br>
