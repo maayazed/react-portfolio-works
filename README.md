@@ -1,1 +1,102 @@
-# react-portfolio-works
+<div align='center'>
+<h1><strong>Budget Tracker</strong></h1>
+</div>
+
+<div>
+    <img src='https://img.shields.io/badge/license-MIT-blue'/>
+    <img src='https://img.shields.io/badge/-sample-orange'/>
+    <img src='https://img.shields.io/github/repo-size/maayazed/react-portfolio-works'/>
+    <img src='https://img.shields.io/github/languages/top/maayazed/react-portfolio-works'/>
+    <a href="https://github.com/maayazed"><img src="https://img.shields.io/github/followers/maayazed?style=social" target="_blank"/></a>
+</div>
+
+<div align='center'>
+<img src='https://user-images.githubusercontent.com/79816212/132275158-7f921890-f20e-4bbd-9d66-41b4ec09ffb7.gif'/>
+</div>
+
+<div align='center'>
+<strong>Table of Contents</strong>  
+<hr>
+    <p><a href='#desc'>About</a></p>
+    <p><a href='#deploy'>Deployment</a></p>
+    <p><a href='#user'>User Guidelines</a></p>
+    <p><a href='#license'>Licensing</a></p>
+    <p><a href='#contribute'>Contributors</a></p>
+    <p><a href='#contact'>Contact</a></p>
+
+<hr>
+</div>
+
+<div align='center'>
+    <h3><a id='desc'>About</a></h3>
+</div>
+
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<br>
+ 
+<h2 align="center"><strong><a href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
+ 
+<div align='center'>
+img
+</div>
+
+<hr>
+
+<div align='center'>
+    <h3><a id='deploy'>Deployment</a></h3>
+</div>
+
+<div>
+<h4>Instructions: </h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<hr>
+
+<div align='center'>
+    <h3><a id='user'>User Guidelines</a></h3>
+</div>
+
+<div>
+<h4>Guide: </h4> 
+  
+</div>
+
+<hr>
+
+<div align='center'>
+    <h3><a id='license'>Licensing</a></h3>
+</div>
+
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>MIT</strong> © <strong>maayazed</strong>
+
+</div>
+
+<hr>
+
+<div align='center'>
+    <h3><a id='contribute'>Contributors</a></h3>
+</div>
+
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://github.com/maayazed/'><img src='https://img.shields.io/badge/User-maayazed-blue'>
+</div>
+
+<hr>
+
+<div align='center'>
+    <h3><a id='contact'>Contact</a></h3>
+</div>
+
+<div>
+<h4>Github:<a href='https://github.com/maayazed/'>&nbsp;&nbsp;&nbsp;maayazed</a></h4>
+<h4>Email:&nbsp;&nbsp;&nbsp;zerreod@outlook.com</h4>
+</div>
+
+<hr>
+
+<div align="center">Made With ❤️</div>
