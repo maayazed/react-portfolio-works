@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Nav.css';
-import Resume from '../files/Resume-MAAYAZED.pdf';
+import Resume from '../files/Resume.pdf';
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -21,7 +21,7 @@ function Nav() {
               Contact
             </Link>
           </li>
-          <li><a href={Resume} download='Resume-MAAYAZED'>Resume</a></li>
+          <li><a href={Resume} download='Resume-MAYAH'>Resume</a></li>
         </ul>
       </nav>
     </header>
