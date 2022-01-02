@@ -12,7 +12,7 @@ function Nav() {
           <li><a href="https://github.com/maayazed" target="_blank" rel="noopener noreferrer">
             Github
           </a></li>
-          <li><a href="linkedin.com/in/mayah-zebrasky-b61b35219"
+          <li><a href="https://linkedin.com/in/mayah-zebrasky-b61b35219"
             target="_blank" rel="noopener noreferrer">
             Linkedin
           </a></li>
